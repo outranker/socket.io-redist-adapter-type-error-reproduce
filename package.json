@@ -1,0 +1,25 @@
+{
+  "name": "ts-error",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "start": "NODE_ENV=development nodemon dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@socket.io/redis-adapter": "^7.0.0",
+    "fastify": "^3.22.1",
+    "fastify-plugin": "^3.0.0",
+    "redis": "^3.1.2",
+    "socket.io": "^4.3.1"
+  },
+  "devDependencies": {
+    "@types/redis": "^2.8.32",
+    "nodemon": "^2.0.14",
+    "typescript": "^4.4.4"
+  }
+}
